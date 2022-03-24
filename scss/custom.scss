@@ -1,0 +1,59 @@
+$dark: #4d144b;
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-content__heading {
+  left: 200px;
+}
+.main-content__images-absolute1 {
+  position: absolute;
+  height: 30%;
+  object-fit: cover;
+  z-index: -1;
+  left: -20%;
+}
+.main-content__images-2 figcaption {
+  font-size: x-small;
+}
+.main-content__input-box2 a {
+  font-size: small;
+}
+.main-content__email-input {
+  border: 1px solid;
+}
+.main-content__email-input::placeholder {
+  font-size: small;
+  padding: 4%;
+}
+.main-content__input-meta p {
+  font-size: x-small;
+}
+.main-content__footer li {
+  font-size: small;
+}
+.main-content__footer-meta-link {
+  font-size: small;
+}
+.cta h4 {
+  font-size: large;
+}
+.cta a {
+  font-size: x-small;
+  width: 40%;
+  text-align: center;
+}
+.footer__list li h6,
+.footer__list li a,
+.footer__list2 a {
+  font-size: 0.8rem;
+}
+.footer__list1 a,
+.footer__list1 select {
+  font-size: 0.6rem;
+}
+.discover__heading p {
+  font-size: 0.9rem;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
